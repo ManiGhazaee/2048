@@ -1,0 +1,104 @@
+html {
+        background-color: black;
+        overflow: hidden;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        cursor: default;
+        user-select: none;
+}
+
+#background {
+        margin: 38vh auto;
+        display: grid;
+        height: 180px;
+        width: 180px;
+        border: 6px solid rgb(197, 197, 197);
+        padding: 2px;
+        grid-template-columns: 40px 40px 40px 40px;
+        grid-template-rows: 40px 40px 40px 40px;
+        grid-gap: 4px;
+        justify-content: center;
+        align-content: center;
+}
+
+#bgbox {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(36, 36, 36);
+}
+
+#container {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        top: calc(38vh + 8px);
+        margin: 0px auto;
+        background-color: rgba(21, 107, 165, 0.158);
+}
+
+#bestscore {
+        height: 30px;
+        width: 100px;
+        display: inline-block;
+        position: absolute;
+        top: 26vh;
+        left: 50%;
+        text-align: right;
+        color: white;
+}
+
+#score {
+        height: 30px;
+        width: 100px;
+        display: inline-block;
+        position: absolute;
+        top: 26vh;
+        left: 50%;
+        margin-top: 22px;
+        text-align: right;
+        color: white;
+}
+
+#bestscoreW {
+        height: 30px;
+        width: 100px;
+        display: inline-block;
+        position: absolute;
+        top: 26vh;
+        left: 50%;
+        margin-left: -98px;
+        text-align: left;
+        color: white;
+}
+
+#scoreW {
+        height: 30px;
+        width: 100px;
+        display: inline-block;
+        position: absolute;
+        top: 26vh;
+        left: 50%;
+        margin-top: 22px;
+        margin-left: -98px;
+        text-align: left;
+        color: white;
+}
+
+#restart {
+        height: 180px;
+        width: 180px;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        top: calc(38vh + 8px);
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 180px;
+        transition: 200ms;
+        cursor: pointer;
+}
+
+#restart:hover {
+        background-color: rgb(197, 197, 197);
+        color: black;
+}
